@@ -1,0 +1,27 @@
+:root {
+    --primary-background: #f4f4f4;
+    --primary :#ffffff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'ProximaNova';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+   
+
+}
+.home {
+    background: orange;
+    width: 100px;
+    height: 100px;
+}
