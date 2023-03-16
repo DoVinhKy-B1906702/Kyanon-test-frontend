@@ -7,7 +7,9 @@ Analyzing and building a two-page interface comprising a login page and a profil
 
 ### techical
 Typescript
+
 Sass
+
 Jest(just a small demo)
 
 Notice: if you wanna run test with jest, you must install extension jest
@@ -16,7 +18,11 @@ Notice: if you wanna run test with jest, you must install extension jest
 
 
 git clone https://github.com/DoVinhKy-B1906702/Kyanon-test-frontend.git
+
 npm install
+
 cd kyanon-test-frontend
+
 (git checkout main)
+
 npm start
