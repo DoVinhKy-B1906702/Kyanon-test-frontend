@@ -24,4 +24,6 @@ cd kyanon-test-frontend
 
 npm install
 
+npm update eslint (Plugin "react" was conflicted between "package.json » eslint-config-react-app)
+
 npm start
