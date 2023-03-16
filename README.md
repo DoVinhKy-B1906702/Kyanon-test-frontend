@@ -1,8 +1,28 @@
-# Kyanon Test Frontend 
+# Project
+## Kyanon Test Frontend 
 
-## analyzing and building a two-page interface comprising a login page and a profile page with profile information update functionality.
+### Required
+ 
+Analyzing and building a two-page interface comprising a login page and a profile page with profile information update functionality.
+
+### techical
+Typescript
+
+Sass
+
+Jest(just a small demo)
+
+Notice: if you wanna run test with jest, you must install extension jest
+
+### Getting Started
 
 
-### Login page flow
+git clone https://github.com/DoVinhKy-B1906702/Kyanon-test-frontend.git
 
-### Profile page flow
+npm install
+
+cd kyanon-test-frontend
+
+(git checkout main)
+
+npm start

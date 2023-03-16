@@ -1,0 +1,82 @@
+.login {
+    height: 600px;
+    padding: 40px;
+}
+.form-login {
+    padding: 100px 0;
+}
+
+
+.title-text {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.layout-submit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.btn-sign {
+    background: var(--primary-btn);
+    color: var(--primary);
+    padding: 8px 20px;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+    }
+}
+.check-pass {
+    accent-color: var(--primary-btn);
+    margin-left: 4px;
+    margin-right: 8px;
+}
+.show-pass {
+    font-size: 1.6rem;
+}
+// layout input label
+.layout-item {
+    margin: 16px 0;
+}
+// input 
+.input-password, .input-email {
+    outline: none;
+    padding: 10px 8px;
+    border: 2px solid var(--primary-atr);
+    border-radius: 6px;
+}
+.attri-title {
+    color: var(--primary-second);
+    font-weight: 600;
+    
+}
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+// reponsive
+@media (min-width:320px) and (max-width:420px){
+    .login {
+        height: 100%;
+      
+    }
+    .form-login {
+        padding: 0;
+    }
+    .btn-sign {
+        width: 100px;
+    } 
+ }
+@media (min-width:740px) and (max-width:1023px){
+   .login {
+        height: 100%;
+       
+   }
+   .form-login {
+    padding: 0;
+}
+}
