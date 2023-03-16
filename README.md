@@ -19,10 +19,9 @@ Notice: if you wanna run test with jest, you must install extension jest
 
 git clone https://github.com/DoVinhKy-B1906702/Kyanon-test-frontend.git
 
-npm install
 
 cd kyanon-test-frontend
 
-(git checkout main)
+npm install
 
 npm start
