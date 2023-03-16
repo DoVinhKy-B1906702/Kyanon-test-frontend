@@ -7,14 +7,24 @@ import './Home.scss';
 const Home = () => {
   return (
     <div className='home'>
-      <div className='home-layout'>
-        <div className='home-login'>
-              <Login />
-          </div>
-          <div className='home-profile'>
-              <Profile />
-          </div>
+      <div className='grid wide'>
+        <div className='row no-gutters layout-center'>
+          <div className='col l-6 m-12 c-12'>
+            <div className='home-login'>
+                  <Login />
+              </div>
+            </div>
+            <div className='col l-6 m-12 c-12 col-profile'>
+              <div className='home-profile'>
+                  <Profile />
+              </div>
+            </div>
+            
+          
+          
+        </div>
       </div>
+      
     </div>
   )
 }
