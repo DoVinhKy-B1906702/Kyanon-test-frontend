@@ -1,0 +1,63 @@
+.alert {
+    position: absolute;
+    right: 0;
+    width: 150px;
+   
+    animation: slideshow 2s forwards;
+    .success {
+        background: var(--success);
+        border-left: 6px solid var(--primary);
+    }
+    
+    .error {
+        background: var(--dangerous);
+        border-left: 6px solid var(--primary);
+
+    }
+    
+    .success, .error {
+        color: var(--primary);
+        padding: 4px 4px;
+        overflow: hidden;
+        font-family: 700;
+        text-align: center;
+        border-radius: 4px;
+       
+    }
+    .count-down {
+        background: var(--primary);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        animation: countdown 4s ease-in;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+   
+}
+
+@keyframes countdown {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+@keyframes slideshow {
+    0% {
+        transform: translateX(100%);
+    }
+    25% {
+        transform: translateX(-20%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-20%);
+    }
+    
+}

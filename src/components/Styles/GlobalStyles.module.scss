@@ -1,6 +1,16 @@
 :root {
     --primary-background: #f4f4f4;
     --primary :#ffffff;
+    --primary-btn : #2e09db;
+    --primary-second: #4925df;
+    --primary-text: #1a1a1a;
+    --primary-atr: #c0c2c5;
+    --btn-cancel: #f6f4ff;
+    --dangerous: #d63031;
+    --success: #44bd32;
+
+    --dangerous-lighter: rgba(242, 83, 83, 0.5);
+    --success-lighter: rgba(56, 159, 40, 0.5);
 }
 * {
     box-sizing: border-box;
@@ -13,15 +23,14 @@ html {
 }
 
 body {
-    font-family: 'ProximaNova';
+    font-family: "Times New Roman", Times, serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
    
 
 }
-.home {
-    background: orange;
-    width: 100px;
-    height: 100px;
+button {
+    border: none;
+    cursor: pointer;
 }
