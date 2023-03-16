@@ -24,4 +24,6 @@ cd kyanon-test-frontend
 
 npm install
 
+npm update eslint
+
 npm start
